@@ -1,0 +1,31 @@
+/* QuoteOptions.css */
+
+/* Style the dropdown content (the options) */
+.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  display: none;
+}
+
+/* Style the options inside the dropdown */
+.dropdown-content button {
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+/* Style the options on hover */
+.dropdown-content button:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown content when the button is clicked */
+.dropdown.active .dropdown-content {
+  display: block;
+}

@@ -1,0 +1,13 @@
+.Quote{
+    font-style: italic;
+    font-size: 20px;
+    color: #61dafb;
+    padding: 1.2rem;
+}
+
+.Author{
+    font-style: italic;
+    font-size: 20px;
+    color: #61dafb;
+    padding: 1.2rem;
+  }
