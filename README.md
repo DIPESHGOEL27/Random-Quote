@@ -17,7 +17,7 @@ The project uses a React.js frontend for the user interface and an Express.js ba
 - Random Quote Generator: Fetch a random quote from either the local database or a third-party API.
 - Add Custom Quote: Enter a custom quote and author to add it to the database.
 - Dynamic Button Text: The "Get Quote" button changes to "Get Another Quote" once a quote is fetched, allowing users to fetch more quotes without refreshing the page.
-- Responsive Design: The user interface is designed to work on various screen sizes, including mobile devices and tablets.
+- Database Integration: MongoDB database is linked at the backend to store and retrieve the custom quotes.
 - Error Handling: Proper error handling is implemented for API requests and database operations.
 
 ## Installation and Setup
@@ -63,8 +63,10 @@ npm start
 
 The project uses the [Quotable API](https://api.quotable.io) to fetch random quotes.
 
-## License
+## License and Copyright
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
+© Dipesh Goel 2023
+All rights reserved. 
+Unauthorized copying or reproduction of this project, in whole or in part, is strictly prohibited without the express permission of the copyright owner.
